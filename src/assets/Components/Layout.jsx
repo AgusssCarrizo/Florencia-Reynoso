@@ -38,15 +38,17 @@ export default function Layout() {
                            <a>Servicios</a>
                            <ul className="p-2">
                               <li>
-                                 <Link to="Kinesiologia">Kinesiologia </Link>
+                                 <Link to="Kinesiologia-Fisiatria">
+                                    Kinesiologia - Fisiatria
+                                 </Link>
                               </li>
                               <li>
-                                 <a>Fisioterapia</a>
+                                 <Link to="Pilates">Pilates</Link>
                               </li>
                            </ul>
                         </li>
                         <li>
-                           <a>Testimonios</a>
+                           <a href="#Testimonio">Testimonios</a>
                         </li>
                      </ul>
                   </nav>
@@ -64,16 +66,18 @@ export default function Layout() {
                            <summary>Servicios</summary>
                            <ul className="p-2">
                               <li>
-                                 <Link to="Kinesiologia">Kinesiologia </Link>
+                                 <Link to="Kinesiologia-Fisiatria">
+                                    Kinesiologia - Fisiatria
+                                 </Link>
                               </li>
                               <li>
-                                 <a>Fisioterapia</a>
+                                 <Link to="Pilates">Pilates</Link>
                               </li>
                            </ul>
                         </details>
                      </li>
                      <li>
-                        <a>Testimonios</a>
+                        <a href="#Testimonio">Testimonios</a>
                      </li>
                   </ul>
                </nav>

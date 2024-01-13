@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonial() {
    return (
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font" id="Testimonio">
          <div className="container px-5 py-24 mx-auto">
             <h1 className="text-3xl font-medium title-font text-gray-900 mb-12 text-center dark:text-white">
                Testimonios
