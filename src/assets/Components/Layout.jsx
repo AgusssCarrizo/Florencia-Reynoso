@@ -90,7 +90,10 @@ export default function Layout() {
                </nav>
             </div>
             <div className="navbar-end">
-               <a className="btn btn-outline btn-success checked:btn-success">
+               <a
+                  className="btn btn-outline btn-success checked:btn-success"
+                  href="https://wa.link/w06ugr"
+                  target="_blank">
                   <svg
                      xmlns="http://www.w3.org/2000/svg"
                      width="16"
