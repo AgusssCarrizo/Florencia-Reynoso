@@ -13,25 +13,24 @@ export default function Hero() {
                />
                <div>
                   <h1 className="text-5xl font-bold">Lic. Florencia Reynoso</h1>
+                  <h4>M.P Nº: 9735</h4>
                   <p className="py-6">
-                     Mi nombre es Florencia Reynoso, egresada de la Licenciatura
-                     en Kinesiología y Fisiatría de la UGR, e instructora de
-                     pilates. Soy una profesional capacitada para actuar en
-                     distintos ámbitos laborales cumpliendo funciones
-                     preventivas y terapéuticas, entre otros.
+                     Hola! 👋🏼 Mi nombre es Florencia Reynoso. Egresada de la
+                     Licenciatura en Kinesiología y Fisiatría de UGR, Rosario.
+                     También Instructora de pilates, área que descubrí en el
+                     transcurso de mi vida como estudiante como kine, y me
+                     fascinó. Realicé cursos para todos los niveles, en mat y en
+                     reformer, esferodinamia y para embarazadas.
                      <br />
+                     Soy una profesional capacitada para actuar en distintos
+                     ámbitos laborales cumpliendo funciones preventivas y
+                     terapéuticas, entre otras.
                      <br />
-                     A lo largo de mi carrera tuve la posibilidad de practicar
-                     en varias áreas de la kinesiología. Puedo afirmar que me
-                     gusta mucho el área de traumatología y deporte, pero
+                     <br />A lo largo de mi carrera tuve la posibilidad de
+                     practicar en varias áreas de la kinesiología. Puedo afirmar
+                     que me gusta mucho el área de traumatología y deporte, pero
                      también trabajo y disfruto de la rehabilitación neurológica
                      en pacientes adultos mayores y niños.
-                     <br />
-                     <br />
-                     En cuanto a pilates, fue un área que descubrí en el
-                     transcurso de mi vida como estudiante, y me fascinó. Es por
-                     eso que realicé cursos para todos los niveles, en mat y en
-                     reformer, esferodinamia y para embarazadas.
                   </p>
                   <a href="https://wa.link/w06ugr" target="_blank">
                      <button className="btn bg-green-400 text-white">
