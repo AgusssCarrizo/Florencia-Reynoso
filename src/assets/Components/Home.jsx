@@ -11,6 +11,7 @@ export default function Home() {
          <Muestra />
          <Testimonial />
          <Ubicacion />
+         <div></div>
       </div>
    );
 }

@@ -56,7 +56,7 @@ export default function Layout() {
                </div>
                <a>
                   <img
-                     src="src/assets/img/Logo/Logo.jpeg"
+                     src="https://res.cloudinary.com/diotu9grj/image/upload/v1707482787/Logo_mo67xd.jpg"
                      alt=""
                      className="w-20 ml-6"
                   />
