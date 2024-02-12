@@ -1,3 +1,5 @@
+import Actividades from "./Actividades";
+
 export default function Kinesiologia() {
    return (
       <section className="flex items-center flex-col">
@@ -24,6 +26,7 @@ export default function Kinesiologia() {
                <div class="flex flex-col text-center w-full mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-50">
                      Tratamientos
+                     <Actividades />
                   </h1>
                </div>
             </div>

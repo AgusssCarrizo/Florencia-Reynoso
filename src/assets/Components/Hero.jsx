@@ -8,8 +8,9 @@ export default function Hero() {
             id="asa">
             <div className="hero-content flex-col lg:flex-row w-[70%]  gap-16 mt-11 md:dark:bg-slate-800 h-auto md:dark:rounded-sm md:dark:shadow-lg md:dark:shadow-slate-700">
                <img
-                  src="https://images.unsplash.com/photo-1657524433818-938be6f05fab?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  className="max-w-sm rounded-lg shadow-2xl h-96"
+                  src="src/assets/img/Logo/asasa.jpeg"
+                  className="max-w-sm rounded-lg shadow-2xl h-72
+                   w-96"
                />
                <div>
                   <h1 className="text-5xl font-bold">Lic. Florencia Reynoso</h1>

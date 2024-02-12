@@ -15,36 +15,106 @@ export default function Kinesiologia() {
                lograr la plena inserción de la persona en la sociedad.
             </p>
          </div>
-         <section class="text-gray-600 body-font">
+         <section class="text-gray-600 body-font h-[500px]">
             <div class="container px-5 py-24 mx-auto">
                <div class="flex flex-col text-center w-full mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-50">
-                     Tratamientos
+                     Servicios
                   </h1>
                </div>
-               <div className="carousel w-full ">
+               <div className="carousel w-full h-60">
                   <div
                      id="slide1"
                      className="carousel-item relative w-full gap-4">
                      <a href="#slide4" className="btn btn-circle my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
                            Rehabilitación traumatológica y deportiva.
                         </h3>
+                        <a
+                           href="#my_modal_1"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal " role="dialog" id="my_modal_1">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Rehabilitacion-traumatológica-y-deportiva.jpeg"
+                                 alt="Rehabilitación traumatológica y deportiva."
+                                 className="mx-auto"
+                              />
+                              <p className="py-4">
+                                 Esta modalidad de fisioterapia se usa para
+                                 tratar una variedad de dolencias que incluyen
+                                 lesiones musculoesqueléticas, lesiones
+                                 ortopédicas y lesiones relacionadas con el
+                                 deporte. Cervicalgias, lumbagias, dorsalgias,
+                                 esguinces, tendinitis. recuperación de
+                                 operaciones, luxaciones, lesiones musculares,
+                                 etc. <br />
+                                 <span className="font-bold">
+                                    Enfoques del tratamiento:
+                                 </span>
+                                 <ol>
+                                    <li>
+                                       1. Reducción de la inflamación y alivio
+                                       del dolor.
+                                    </li>
+                                    <li>
+                                       2. Recuperación de la movilidad del
+                                       paciente.
+                                    </li>
+                                    <li>
+                                       3. Ejercicios terapéuticos para lograr la
+                                       plena inserción de la persona en la
+                                       sociedad.
+                                    </li>
+                                 </ol>
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide1" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
 
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
-                           Rehabilitación neurológica.
-                        </h3>
-                     </div>
-
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
                            Kinesiología respiratoria en niños.
                         </h3>
+                        <a
+                           href="#niños"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="niños">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Kinesiologia-respratoria-pediatrica.jpeg"
+                                 alt="Kinesiología respiratoria en niños."
+                                 className="mx-auto"
+                              />
+                              <p className="py-4">
+                                 Serie de tratamientos que son utilizados como
+                                 apoyo y/o complemento para mejorar patologías
+                                 del sistema respiratorio. Todas aquellas en las
+                                 que se vea afectada la función pulmonar. Entre
+                                 las mas comunes se encuentran bronquiolitis,
+                                 BOR.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide1" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
 
                      <a
@@ -59,21 +129,83 @@ export default function Kinesiologia() {
                      <a href="#slide1" className="btn btn-circle my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
                            Terapia manual e instrumental.
                         </h3>
+                        <a
+                           href="#my_modal_3"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="my_modal_3">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Terapia-Manual.jpg"
+                                 alt="Terapia manual e instrumental"
+                                 className="h-[250px] w-[350px] mx-auto"
+                              />
+                              <p className="py-4">
+                                 Consisten en un amplio grupo de técnicas, en
+                                 las que el kinesiólogo usa sus manos y
+                                 diferentes instrumentos complementarios. A
+                                 través de ellas, se busca evaluar a traves del
+                                 tacto diferentes características que nos brinda
+                                 el tejido a la palpación, y liberar
+                                 restricciones del tejido miofascial, tratar
+                                 puntos gatillos, etc.
+                                 <br /> Su aplicación , ayuda también a
+                                 disminuir o eliminar la inflamación, modular el
+                                 dolor, inducir a la relajación, mejorar la
+                                 elasticidad facilitando así el movimiento y
+                                 beneficiando la función.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide2" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
                            Terapia con ventosas para dolor de origen miofascial.
                         </h3>
+                        <a
+                           href="#my_modal_4"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="my_modal_4">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Terapia-con-ventosa.jpeg"
+                                 alt="Terapia con ventosas"
+                                 className="mx-auto"
+                              />
+                              <p className="py-4">
+                                 Complemento utilizado en este caso para la
+                                 reducción del dolor musculoesqulético o
+                                 miofascial. Mejora el dolor y el rango de
+                                 movilidad. Disminuye la prevalencia de
+                                 lesiones, mejora el rendimiento deportivo y hay
+                                 mejoras en la rehabilitación.
+                                 <br />
+                                 Su principal efecto es una vasodilatación
+                                 contralada y localizada sin daño tisular.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide2" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200 p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
-                           Fisioterapia.
-                        </h3>
-                     </div>
+
                      <a href="#slide3" className="btn btn-circle my-auto ">
                         ❯
                      </a>
@@ -84,16 +216,126 @@ export default function Kinesiologia() {
                      <a href="#slide2" className="btn btn-circle my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-full  bg-emerald-200  flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
-                           Terapia física en todas las edades, tanto para
-                           prevención. como tratamiento.
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
+                           Terapia física.
                         </h3>
+                        <a
+                           href="#fisica"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="fisica">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Terapia-Fisica.jpeg"
+                                 alt="Terapia Física"
+                                 className="mx-auto"
+                              />
+                              <p className="py-4">
+                                 Apta para todas las edades. Tanto para
+                                 <span className="font-bold"> prevención </span>
+                                 como para
+                                 <span className="font-bold"> tratamiento</span>
+                                 . Se realiza como etapa final del tratamiento
+                                 en el caso de rehabilitación traumatológica o
+                                 deportiva, en casos de patologías como
+                                 polineuropatías, secuelas de ACV, miastenia
+                                 gravis, etc. Niños con acortamientos
+                                 musculares, o con falta de fuerza, coordinación
+                                 y equilibrio. O en caso de aquellas personas
+                                 que quieren comenzar a ejercitarse de manera
+                                 controlada y segura.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide3" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
-                     <div className="flex rounded-lg h-60 w-full  bg-emerald-200  p-8 flex-col  items-center justify-center text-center">
-                        <h3 className="text-slate-800 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
                            Trabajo postural.
                         </h3>
+                        <a
+                           href="#postural"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="postural">
+                           <div className="modal-box dark:text-white ">
+                              <img
+                                 src="src/assets/img/Terapias/Postural.jpeg"
+                                 alt="Trabajo postural"
+                                 className="mx-auto"
+                              />
+                              <p className="py-4 dtext-18">
+                                 Actividad terapéutica donde a través de
+                                 ejercicios simples, variados y entretenidos
+                                 podrás mejorar y entrenar la flexibilidad y
+                                 fuerza, aprenderás a conocer tu cuerpo con
+                                 ejericicios funcionales que aumentarán la
+                                 conciencia corporal para mejorar tu postura.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide3" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <a href="#slide4" className="btn btn-circle my-auto">
+                        ❯
+                     </a>
+                  </div>
+                  <div
+                     id="slide4"
+                     className="carousel-item relative w-full  gap-4">
+                     <a href="#slide3" className="btn btn-circle my-auto ">
+                        ❮
+                     </a>
+                     <div className="flex rounded-lg h-full w-1/2 mx-auto  bg-gradient-to-r from-emerald-700 to-emerald-600 p-8 flex-col  items-center justify-center text-center gap-7 ">
+                        <h3 className="text-slate-200 text-lg font-bold  ">
+                           Fisioterapia.
+                        </h3>
+                        <a
+                           href="#my_modal_5"
+                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           ver más
+                        </a>
+
+                        <div className="modal" role="dialog" id="my_modal_5">
+                           <div className="modal-box dark:text-white">
+                              <img
+                                 src="src/assets/img/Terapias/Fisioterapia.jpg"
+                                 alt="Fisioterapia"
+                                 className="mx-auto h-[200px] w-[246px]"
+                              />
+                              <p className="py-4">
+                                 Se utilizan distintos aparatos como complemento
+                                 de la rehabilitación, sobretodo en etapas
+                                 iniciales. En FR KINESIOPILATES, la terapia mas
+                                 utilizada es de Estimulación Nerviosa
+                                 Transcutánea, o TENS, que es una técnica de
+                                 fisioterapia que utiliza corrientes eléctricas
+                                 de baja intensidad para aliviar el dolor y
+                                 mejorar la función muscular. Esta terapia
+                                 implica la aplicación de electrodos en la piel
+                                 sobre la zona afectada.
+                              </p>
+                              <div className="modal-action">
+                                 <a href="#slide4" className="btn">
+                                    Cerrar
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
                      </div>
 
                      <a href="#slide1" className="btn btn-circle my-auto">
