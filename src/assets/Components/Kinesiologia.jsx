@@ -15,14 +15,14 @@ export default function Kinesiologia() {
                lograr la plena inserción de la persona en la sociedad.
             </p>
          </div>
-         <section class="text-gray-600 body-font h-[500px] w-fit">
+         <section class="text-gray-600 body-font w-[screen] h-[500px]">
             <div class="container px-5 py-24 mx-auto">
                <div class="flex flex-col text-center w-full mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-50">
                      Servicios
                   </h1>
                </div>
-               <div className="carousel w-dvw h-60">
+               <div className="carousel w-svw lg:w-full h-60">
                   <div
                      id="slide1"
                      className="carousel-item relative w-full gap-4">
@@ -129,7 +129,7 @@ export default function Kinesiologia() {
                      <a href="#slide1" className="btn btn-circle my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
+                     <div className="flex rounded-lg h-full w-1/3  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Terapia manual e instrumental.
                         </h3>
@@ -169,7 +169,7 @@ export default function Kinesiologia() {
                            </div>
                         </div>
                      </div>
-                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                     <div className="flex rounded-lg h-full w-1/3 lg:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Terapia con ventosas para dolor de origen miofascial.
                         </h3>
@@ -216,7 +216,7 @@ export default function Kinesiologia() {
                      <a href="#slide2" className="btn btn-circle my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
+                     <div className="flex rounded-lg h-full w-1/3 lg:1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Terapia física.
                         </h3>
@@ -256,7 +256,7 @@ export default function Kinesiologia() {
                            </div>
                         </div>
                      </div>
-                     <div className="flex rounded-lg h-full w-full  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                     <div className="flex rounded-lg h-full w-1/3 lg:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Trabajo postural.
                         </h3>
