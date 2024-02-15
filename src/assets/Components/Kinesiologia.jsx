@@ -121,7 +121,7 @@ export default function Kinesiologia() {
 
                      <a
                         href="#slide2"
-                        className="btn btn-circle justify-center my-auto">
+                        className="btn btn-circle justify-center my-auto w-5 h-5 md:w-8 md:h-8">
                         ❯
                      </a>
                   </div>
