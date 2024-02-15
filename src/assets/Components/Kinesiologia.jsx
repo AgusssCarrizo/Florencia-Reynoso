@@ -26,10 +26,12 @@ export default function Kinesiologia() {
                   <div
                      id="slide1"
                      className="carousel-item relative w-full gap-4">
-                     <a href="#slide4" className="btn btn-circle my-auto">
+                     <a
+                        href="#slide4"
+                        className="btn btn-circle text-lg w-5 h-5 md:w-8 md:h-8 my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full  w-1/2  sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
+                     <div className="flex rounded-lg h-full  w-1/3  sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Rehabilitación traumatológica y deportiva.
                         </h3>
@@ -83,7 +85,7 @@ export default function Kinesiologia() {
                         </div>
                      </div>
 
-                     <div className="flex rounded-lg h-full w-1/2 sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
+                     <div className="flex rounded-lg h-full w-1/3 sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
                         <h3 className="text-slate-200 text-lg font-bold  ">
                            Kinesiología respiratoria en niños.
                         </h3>
