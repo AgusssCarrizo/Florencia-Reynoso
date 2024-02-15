@@ -28,7 +28,7 @@ export default function Kinesiologia() {
                      className="carousel-item relative w-full gap-4">
                      <a
                         href="#slide4"
-                        className="btn btn-circle text-lg w-5 h-5 md:w-8 md:h-8 my-auto">
+                        className="btn btn-circle text-lg w-5 h-8 md:w-8 md:h-8 my-auto">
                         ❮
                      </a>
                      <div className="flex rounded-lg h-full  w-1/3  sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
@@ -121,14 +121,16 @@ export default function Kinesiologia() {
 
                      <a
                         href="#slide2"
-                        className="btn btn-circle justify-center my-auto w-5 h-5 md:w-8 md:h-8">
+                        className="btn btn-circle justify-center my-auto w-5 h-8 md:w-8 md:h-8">
                         ❯
                      </a>
                   </div>
                   <div
                      id="slide2"
                      className="carousel-item relative w-full gap-4">
-                     <a href="#slide1" className="btn btn-circle my-auto">
+                     <a
+                        href="#slide1"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❮
                      </a>
                      <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
@@ -208,14 +210,18 @@ export default function Kinesiologia() {
                         </div>
                      </div>
 
-                     <a href="#slide3" className="btn btn-circle my-auto ">
+                     <a
+                        href="#slide3"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8 ">
                         ❯
                      </a>
                   </div>
                   <div
                      id="slide3"
                      className="carousel-item relative w-full gap-4">
-                     <a href="#slide2" className="btn btn-circle my-auto">
+                     <a
+                        href="#slide2"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❮
                      </a>
                      <div className="flex rounded-lg h-full w-1/3 sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
@@ -292,14 +298,18 @@ export default function Kinesiologia() {
                         </div>
                      </div>
 
-                     <a href="#slide4" className="btn btn-circle my-auto">
+                     <a
+                        href="#slide4"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❯
                      </a>
                   </div>
                   <div
                      id="slide4"
                      className="carousel-item relative w-full  gap-4">
-                     <a href="#slide3" className="btn btn-circle my-auto ">
+                     <a
+                        href="#slide3"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❮
                      </a>
                      <div className="flex rounded-lg h-full w-1/2 mx-auto  bg-gradient-to-r from-emerald-700 to-emerald-600 p-8 flex-col  items-center justify-center text-center gap-7 ">
@@ -340,7 +350,9 @@ export default function Kinesiologia() {
                         </div>
                      </div>
 
-                     <a href="#slide1" className="btn btn-circle my-auto">
+                     <a
+                        href="#slide1"
+                        className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❯
                      </a>
                   </div>
