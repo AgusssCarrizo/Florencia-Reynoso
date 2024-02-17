@@ -3,7 +3,7 @@ import React from "react";
 export default function Kinesiologia() {
    return (
       <section className="flex w-screen items-center flex-col">
-         <div className="w-full px-20 md:w-3/4 text-justify p-5 bg-slate-200  md:rounded-xl md:dark:bg-slate-600 mt-16">
+         <div className="w-full px-20 md:w-3/4 text-justify p-5  md:rounded-xl dark:bg-slate-600 mt-16">
             <h2 className="text-3xl text-center md:text-left mb-4 font-bold dark:text-slate-300">
                Kinesiologia y fisiatria
             </h2>
@@ -15,29 +15,29 @@ export default function Kinesiologia() {
                lograr la plena inserción de la persona en la sociedad.
             </p>
          </div>
-         <section class="text-gray-600 body-font w-11/12 flex flex-col justify-center items  h-[500px]">
+         <section class="text-gray-600 body-font w-11/12 flex flex-col justify-center  items h-[500px]">
             <div class="container px-5 py-24 mx-auto ">
                <div class="flex flex-col text-center w-full mb-20">
                   <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-50">
                      Servicios
                   </h1>
                </div>
-               <div className="carousel w-full  h-60">
+               <div className="carousel w-full itm  h-60">
                   <div
                      id="slide1"
-                     className="carousel-item relative w-full gap-4">
+                     className="carousel-item relative justify-between w-full gap-4">
                      <a
                         href="#slide4"
                         className="btn btn-circle text-lg w-5 h-8 md:w-8 md:h-8 my-auto">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full  w-1/3  sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
-                        <h3 className="text-slate-200 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-1/3  sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600  p-8 flex-col  items-center justify-center gap-7 text-center ">
+                        <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
                            Rehabilitación traumatológica y deportiva.
                         </h3>
                         <a
                            href="#my_modal_1"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -86,12 +86,12 @@ export default function Kinesiologia() {
                      </div>
 
                      <div className="flex rounded-lg h-full w-1/3 sm:w-1/2  bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
-                        <h3 className="text-slate-200 text-lg font-bold  ">
+                        <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
                            Kinesiología respiratoria en niños.
                         </h3>
                         <a
                            href="#niños"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -127,19 +127,19 @@ export default function Kinesiologia() {
                   </div>
                   <div
                      id="slide2"
-                     className="carousel-item relative w-full gap-4">
+                     className="carousel-item relative justify-between w-full gap-4">
                      <a
                         href="#slide1"
                         className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❮
                      </a>
-                     <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center justify-center text-center gap-7 ">
-                        <h3 className="text-slate-200 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   flex-col  items-center text-center justify-center gap-7 ">
+                        <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
                            Terapia manual e instrumental.
                         </h3>
                         <a
                            href="#my_modal_3"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -173,13 +173,14 @@ export default function Kinesiologia() {
                            </div>
                         </div>
                      </div>
-                     <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center gap-7 ">
-                        <h3 className="text-slate-200 text-lg font-bold  ">
+                     <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center ">
+                        <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
                            Terapia con ventosas para dolor de origen miofascial.
                         </h3>
+
                         <a
                            href="#my_modal_4"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -218,7 +219,7 @@ export default function Kinesiologia() {
                   </div>
                   <div
                      id="slide3"
-                     className="carousel-item relative w-full gap-4">
+                     className="carousel-item relative w-full justify-between gap-4">
                      <a
                         href="#slide2"
                         className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
@@ -230,7 +231,7 @@ export default function Kinesiologia() {
                         </h3>
                         <a
                            href="#fisica"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -270,7 +271,7 @@ export default function Kinesiologia() {
                         </h3>
                         <a
                            href="#postural"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
@@ -306,19 +307,19 @@ export default function Kinesiologia() {
                   </div>
                   <div
                      id="slide4"
-                     className="carousel-item relative w-full  gap-4">
+                     className="carousel-item relative w-full justify-between gap-4">
                      <a
                         href="#slide3"
                         className="btn btn-circle my-auto w-5 h-8 md:w-8 md:h-8">
                         ❮
                      </a>
                      <div className="flex rounded-lg h-full w-1/2 mx-auto  bg-gradient-to-r from-emerald-700 to-emerald-600 p-8 flex-col  items-center justify-center text-center gap-7 ">
-                        <h3 className="text-slate-200 text-lg font-bold  ">
+                        <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
                            Fisioterapia.
                         </h3>
                         <a
                            href="#my_modal_5"
-                           className="text-white h-6 w-20 bg-blue-500 rounded">
+                           className="btn  text-black bg-slate-200 rounded">
                            ver más
                         </a>
 
