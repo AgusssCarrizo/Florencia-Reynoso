@@ -175,7 +175,7 @@ export default function Kinesiologia() {
                      </div>
                      <div className="flex rounded-lg h-full w-1/3 sm:w-1/2 bg-gradient-to-r from-emerald-700 to-emerald-600   p-8 flex-col  items-center justify-center text-center ">
                         <h3 className="text-slate-200 text-sm md:text-lg font-bold  ">
-                           Terapia con ventosas para dolor de origen miofascial.
+                           Terapia con ventosas.
                         </h3>
 
                         <a
