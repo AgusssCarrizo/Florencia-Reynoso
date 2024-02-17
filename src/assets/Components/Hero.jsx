@@ -8,7 +8,7 @@ export default function Hero() {
             id="asa">
             <div className="hero-content flex-col lg:flex-row w-[70%]  gap-16 mt-11 md:dark:bg-slate-800 h-auto md:dark:rounded-sm md:dark:shadow-lg md:dark:shadow-slate-700">
                <img
-                  src="src/assets/img/Logo/asasa.jpeg"
+                  src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148300/asasa_e0kkbr.jpg"
                   className="max-w-sm rounded-lg shadow-2xl h-72
                    w-96"
                />

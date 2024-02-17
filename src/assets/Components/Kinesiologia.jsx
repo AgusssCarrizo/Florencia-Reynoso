@@ -44,7 +44,7 @@ export default function Kinesiologia() {
                         <div className="modal " role="dialog" id="my_modal_1">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Rehabilitacion-traumatológica-y-deportiva.jpeg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147980/Rehabilitacion-traumatolo%CC%81gica-y-deportiva_tnx5s8.jpg"
                                  alt="Rehabilitación traumatológica y deportiva."
                                  className="mx-auto"
                               />
@@ -98,7 +98,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="niños">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Kinesiologia-respratoria-pediatrica.jpeg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147976/Kinesiologia-respratoria-pediatrica_vpmtuc.jpg"
                                  alt="Kinesiología respiratoria en niños."
                                  className="mx-auto"
                               />
@@ -146,7 +146,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="my_modal_3">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Terapia-Manual.jpg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147988/Terapia-Manual_mpelj8.jpg"
                                  alt="Terapia manual e instrumental"
                                  className="h-[250px] w-[350px] mx-auto"
                               />
@@ -187,7 +187,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="my_modal_4">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Terapia-con-ventosa.jpeg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147981/Terapia-con-ventosa_kbh8pj.jpg"
                                  alt="Terapia con ventosas"
                                  className="mx-auto"
                               />
@@ -238,7 +238,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="fisica">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Terapia-Fisica.jpeg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147984/Terapia-Fisica_by52d7.jpg"
                                  alt="Terapia Física"
                                  className="mx-auto"
                               />
@@ -278,7 +278,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="postural">
                            <div className="modal-box dark:text-white ">
                               <img
-                                 src="src/assets/img/Terapias/Postural.jpeg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147993/Postural_lmj3ax.jpg"
                                  alt="Trabajo postural"
                                  className="mx-auto"
                               />
@@ -326,7 +326,7 @@ export default function Kinesiologia() {
                         <div className="modal" role="dialog" id="my_modal_5">
                            <div className="modal-box dark:text-white">
                               <img
-                                 src="src/assets/img/Terapias/Fisioterapia.jpg"
+                                 src="https://res.cloudinary.com/diotu9grj/image/upload/v1708147953/Fisioterapia_vyoyjv.jpg"
                                  alt="Fisioterapia"
                                  className="mx-auto h-[200px] w-[246px]"
                               />
