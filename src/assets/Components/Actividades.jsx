@@ -5,7 +5,7 @@ export default function Actividades() {
       <div className="grid grid-flow-dense lg:grid-cols-3 w-5/6 mx-auto gap-6 items-center ">
          <div className="rounded-lg my-3 ">
             <img
-               src="src/assets/img/Pilates/Circuito.jpeg"
+               src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148535/Circuito_kxokvv.jpg"
                alt="Pilates circuito"
                className="w-full rounded-t"
             />
@@ -15,7 +15,7 @@ export default function Actividades() {
          </div>
          <div className="my-3  ">
             <img
-               src="src/assets/img/Pilates/Pilates-embarazadas.jpeg"
+               src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148540/Pilates-embarazadas_gic21s.jpg"
                alt="Pilates para embarazadas"
                className="w-full h-full rounded-t "
             />
@@ -25,7 +25,7 @@ export default function Actividades() {
          </div>
          <div className="my-3 ">
             <img
-               src="src/assets/img/Pilates/Pilates-mix.jpg"
+               src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148538/Pilates-mix_hokwuh.jpg"
                alt="Pilates mix"
                className="  h-full rounded-t"
             />
@@ -33,7 +33,7 @@ export default function Actividades() {
          </div>
          <div className="grid col-start-2 col-end-3 my-3">
             <img
-               src="src/assets/img/Pilates/Reformer.jpg"
+               src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148549/Reformer_gu4trr.jpg"
                alt="Pilates reformer"
                className="w-full  h-full rounded-t"
             />
