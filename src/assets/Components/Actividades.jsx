@@ -39,7 +39,7 @@ export default function Actividades() {
                alt="Pilates reformer"
                className="w-full  h-full rounded-t"
             />
-            <h4 className="text-sm  bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
                Pilates reformer
             </h4>
          </div>
