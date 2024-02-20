@@ -8,7 +8,7 @@ export default function Muestra() {
          id="Servicios">
          <Link to="Pilates">
             <div className=" bg-Kinesiologia flex justify-center items-center h-80 w-80 rounded-xl  shadow-sm  bg-cover bg-center cursor-pointer relative">
-               <h2 className="font-bold text-3xl text-center bg-slate-400  bg-opacity-50 rounded-xl p-1  ">
+               <h2 className="font-bold text-3xl text-center text-black bg-slate-400  bg-opacity-50 rounded-xl p-1  ">
                   Pilates
                </h2>
                <div className="absolute top-[45%] -right-[28%] ">
@@ -25,7 +25,7 @@ export default function Muestra() {
          </Link>
          <Link to="Kinesiologia-Fisiatria">
             <div className="  bg-Fisioterapia flex justify-center items-center h-80 w-80 rounded-xl shadow-sm bg-cover bg-center cursor-pointer relative">
-               <h2 className="font-bold text-3xl text-center  bg-slate-400  bg-opacity-50 rounded-xl p-1">
+               <h2 className="font-bold text-3xl text-center text-black  bg-slate-400  bg-opacity-50 rounded-xl p-1">
                   Kinesiologia <br /> Fisiatria
                </h2>
                <div className="absolute top-[90%] right-[5%]">

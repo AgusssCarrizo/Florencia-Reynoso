@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Actividades() {
    return (
-      <div className="grid grid-flow-dense lg:grid-cols-3 w-5/6 mx-auto gap-6 items-center ">
+      <div className="grid grid-flow-dense lg:grid-cols-3  w-11/12 mx-auto gap-6 items-center ">
          <div className="rounded-lg my-3 ">
             <img
                src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148535/Circuito_kxokvv.jpg"
                alt="Pilates circuito"
                className="w-full rounded-t"
             />
-            <h4 className="text-sm bg-green-200 h-6 rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
                Pilates circuito
             </h4>
          </div>
@@ -19,7 +19,7 @@ export default function Actividades() {
                alt="Pilates para embarazadas"
                className="w-full h-full rounded-t "
             />
-            <h4 className="text-sm bg-green-200 h-6 rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
                Pilates para embarazadas
             </h4>
          </div>
@@ -29,7 +29,7 @@ export default function Actividades() {
                alt="Pilates mix"
                className="  h-full rounded-t"
             />
-            <h4 className="text-sm bg-green-200 h-6 rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
                Pilates mix
             </h4>
          </div>
@@ -39,7 +39,7 @@ export default function Actividades() {
                alt="Pilates reformer"
                className="w-full  h-full rounded-t"
             />
-            <h4 className="text-sm  bg-green-200 h-6 rounded-b font-mono">
+            <h4 className="text-sm  bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
                Pilates reformer
             </h4>
          </div>
