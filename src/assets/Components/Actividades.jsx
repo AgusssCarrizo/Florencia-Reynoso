@@ -9,7 +9,7 @@ export default function Actividades() {
                alt="Pilates circuito"
                className="w-full rounded-t"
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
                Pilates circuito
             </h4>
          </div>
@@ -19,7 +19,7 @@ export default function Actividades() {
                alt="Pilates para embarazadas"
                className="w-full h-full rounded-t "
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
                Pilates para embarazadas
             </h4>
          </div>
@@ -29,7 +29,7 @@ export default function Actividades() {
                alt="Pilates mix"
                className="  h-full rounded-t"
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
+            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
                Pilates mix
             </h4>
          </div>
@@ -39,7 +39,7 @@ export default function Actividades() {
                alt="Pilates reformer"
                className="w-full  h-full rounded-t"
             />
-            <h4 className="text-sm  bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono">
+            <h4 className="text-sm  bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
                Pilates reformer
             </h4>
          </div>
