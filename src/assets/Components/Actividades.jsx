@@ -9,7 +9,7 @@ export default function Actividades() {
                alt="Pilates circuito"
                className="w-full rounded-t"
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
+            <h4 className="text-lg bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b  text-white">
                Pilates circuito
             </h4>
          </div>
@@ -19,7 +19,7 @@ export default function Actividades() {
                alt="Pilates para embarazadas"
                className="w-full h-full rounded-t "
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
+            <h4 className="text-lg bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b  text-white">
                Pilates para embarazadas
             </h4>
          </div>
@@ -27,9 +27,9 @@ export default function Actividades() {
             <img
                src="https://res.cloudinary.com/diotu9grj/image/upload/v1708148538/Pilates-mix_hokwuh.jpg"
                alt="Pilates mix"
-               className="  h-full rounded-t"
+               className="rounded-t max-h-full"
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
+            <h4 className="text-lg bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b  text-white">
                Pilates mix
             </h4>
          </div>
@@ -39,7 +39,7 @@ export default function Actividades() {
                alt="Pilates reformer"
                className="w-full  h-full rounded-t"
             />
-            <h4 className="text-sm bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b font-mono text-white">
+            <h4 className="text-lg bg-primary h-11 sm:h-6 flex items-center justify-center w-full rounded-b  text-white">
                Pilates reformer
             </h4>
          </div>
